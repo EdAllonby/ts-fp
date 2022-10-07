@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "tsc",
+    "dev": "ts-node index.ts",
+    "build": "tsc",
     "format": "npx prettier --write ."
   },
   "devDependencies": {
